@@ -15,12 +15,12 @@
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-    pip install --upgrade pip
+    python.exe -m pip install --upgrade pip
     ```
 
 2. **Install Dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirements.txt  #Wait around 2/3 minutes because it takes a while, dont Interrupt
     ```
 
 3. **Run the Application:**
